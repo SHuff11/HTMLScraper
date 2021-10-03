@@ -18,6 +18,8 @@ print(response.headers)
 
 response_headers = response.headers
 
+
+
 #loop through dict data for providing keys and values in text formate
 for key,value in response_headers.items():
     # import pdb; pdb.set_trace()
